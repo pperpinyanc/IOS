@@ -311,5 +311,160 @@ extension ViewController {
     
     
     
+}
+//MARK: Enums
+
+enum DayOfWeek{
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+    case saturday
+    case sunday
     
+}
+
+extension ViewController {
+    func testEnumDayofWeek(){
+        //let day = DayOfWeek.friday
+        let day : DayOfWeek = .friday
+        
+        switch(day){
+            
+        case .monday:
+            break
+        case .tuesday:
+            break
+        case .wednesday:
+            break
+        case .thursday:
+            break
+        case .friday:
+            break
+        case .saturday:
+            break
+        case .sunday:
+            break
+        }
+        switch(day){
+            
+        case .monday, .tuesday,.wednesday,.thursday,.friday:
+            print("Se curra")
+            break
+        case.saturday,.sunday:
+            print("No se curra pero en verdad si")
+            break
+            
+        }
+        
+       
+        
+        
+        
+        
+    }
+    
+
+    
+ 
+    
+    
+}
+extension DayOfWeek: CaseIterable{
+    
+    
+    var TranslatedText: String{
+        get{
+            switch(self){
+                
+            case .monday:
+                return "Lunes"
+            case .tuesday:
+                return "Lunes2"
+            case .wednesday:
+                return "Lunes3"
+            case .thursday:
+                return "Lunes4"
+            case .friday:
+                return "Lunes4"
+            case .saturday:
+                return "Lunes5"
+            case .sunday:
+                return "Lunes6"
+            }
+        }
+    }
+    
+}
+
+extension ViewController{
+    func testEnum(){
+        let allDaysofWeek = DayOfWeek.allCases
+        for day in allDaysofWeek {
+            print(day.TranslatedText)
+        }
+    }
+}
+
+enum OperationResult<T> {
+    case Succes (value: T)
+    case Failure(error : Error, code: Int)
+    
+}
+extension ViewController{
+    func testEnumOperation(){
+        let opResult = OperationResult<String>.Succes(value: "AAAAAAAAA")
+        
+        switch(opResult){
+            
+        case .Succes(value: let value):
+            print(value)
+            break
+        case .Failure(error: let error, code: let code):
+            print(code)
+            break
+        }
+    }
+}
+
+
+
+enum MathOperation {
+    case Add(a:Double, b:Double)
+    case Substract(a:Double, b:Double)
+    case Mult(a:Double, b:Double)
+    case Divide(a:Double, b:Double)
+    case Module(a:Double, b:Double)
+    
+    var Result: Double{
+        get{
+            switch(self){
+                
+            case .Add(a: let a, b: let b):
+                return a + b
+            case .Substract(a: let a, b: let b):
+                return a - b
+            case .Mult(a: let a, b: let b):
+                return a * b
+            case .Divide(a: let a, b: let b):
+                return a / b
+            case .Module(a: let a, b: let b):
+                return a.truncatingRemainder(dividingBy: b)
+            }
+        }
+    }
+}
+
+extension ViewController {
+    
+    func testEnumMath(){
+        let mathOp: MathOperation = .Add(a: 5, b: 3)
+        print(mathOp.Result)
+        
+        let result = MathOperation.Add(a: 3, b: 3).Result + MathOperation.Mult(a: 4, b: 5).Result
+        print(result)
+        
+     
+    }
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF9ED2E42B88F0CD0042B0B7 /* Calculadora.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9ED2E32B88F0CD0042B0B7 /* Calculadora.xib */; };
+		FF9ED2E62B8910940042B0B7 /* TableTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9ED2E52B8910940042B0B7 /* TableTestVC.swift */; };
+		FF9ED2E82B8913BE0042B0B7 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9ED2E72B8913BE0042B0B7 /* TestCell.swift */; };
+		FF9ED2EA2B8924E10042B0B7 /* NoteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9ED2E92B8924E10042B0B7 /* NoteListVC.swift */; };
+		FF9ED2EC2B8928160042B0B7 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9ED2EB2B8928160042B0B7 /* NoteCell.swift */; };
 		FFA518C12B7FDE10001DC11C /* prueba23.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA518C02B7FDE10001DC11C /* prueba23.swift */; };
 		FFDFE3652B769AB60037C660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFE3642B769AB60037C660 /* AppDelegate.swift */; };
 		FFDFE3672B769AB60037C660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDFE3662B769AB60037C660 /* SceneDelegate.swift */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF9ED2E32B88F0CD0042B0B7 /* Calculadora.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Calculadora.xib; sourceTree = "<group>"; };
+		FF9ED2E52B8910940042B0B7 /* TableTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestVC.swift; sourceTree = "<group>"; };
+		FF9ED2E72B8913BE0042B0B7 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		FF9ED2E92B8924E10042B0B7 /* NoteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListVC.swift; sourceTree = "<group>"; };
+		FF9ED2EB2B8928160042B0B7 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		FFA518C02B7FDE10001DC11C /* prueba23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba23.swift; sourceTree = "<group>"; };
 		FFDFE3612B769AB60037C660 /* prueba2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prueba2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDFE3642B769AB60037C660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 				FFDFE3722B769AB70037C660 /* Info.plist */,
 				FFDFE3782B76AF860037C660 /* TestBindingVC.swift */,
 				FFA518C02B7FDE10001DC11C /* prueba23.swift */,
+				FF9ED2E32B88F0CD0042B0B7 /* Calculadora.xib */,
+				FF9ED2E52B8910940042B0B7 /* TableTestVC.swift */,
+				FF9ED2E72B8913BE0042B0B7 /* TestCell.swift */,
+				FF9ED2E92B8924E10042B0B7 /* NoteListVC.swift */,
+				FF9ED2EB2B8928160042B0B7 /* NoteCell.swift */,
 			);
 			path = prueba2;
 			sourceTree = "<group>";
@@ -131,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9ED2E42B88F0CD0042B0B7 /* Calculadora.xib in Resources */,
 				FFDFE3712B769AB70037C660 /* LaunchScreen.storyboard in Resources */,
 				FFDFE36E2B769AB70037C660 /* Assets.xcassets in Resources */,
 				FFDFE36C2B769AB60037C660 /* Main.storyboard in Resources */,
@@ -144,10 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9ED2E82B8913BE0042B0B7 /* TestCell.swift in Sources */,
 				FFDFE3692B769AB60037C660 /* ViewController.swift in Sources */,
+				FF9ED2E62B8910940042B0B7 /* TableTestVC.swift in Sources */,
 				FFDFE3652B769AB60037C660 /* AppDelegate.swift in Sources */,
 				FFDFE3792B76AF860037C660 /* TestBindingVC.swift in Sources */,
 				FFDFE3672B769AB60037C660 /* SceneDelegate.swift in Sources */,
+				FF9ED2EC2B8928160042B0B7 /* NoteCell.swift in Sources */,
+				FF9ED2EA2B8924E10042B0B7 /* NoteListVC.swift in Sources */,
 				FFA518C12B7FDE10001DC11C /* prueba23.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
