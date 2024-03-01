@@ -52,5 +52,53 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "899820C2-EC5F-410D-B30B-6898ED547D40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prueba2/NoteListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "899820C2-EC5F-410D-B30B-6898ED547D40 - eac2f18003de2f01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba2.NoteListVC.viewDidLoad() -&gt; ()"
+                  moduleName = "prueba2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pablo.perpinan/Desktop/IOS/iosRepo/prueba2/prueba2/NoteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "899820C2-EC5F-410D-B30B-6898ED547D40 - eac2f18003de2ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba2.NoteListVC.viewDidLoad() -&gt; ()"
+                  moduleName = "prueba2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pablo.perpinan/Desktop/IOS/iosRepo/prueba2/prueba2/NoteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
