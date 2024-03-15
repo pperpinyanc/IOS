@@ -100,5 +100,69 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11F68065-A177-425D-94A2-0286CADADFA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prueba2/PokemonVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DECD6B3-998B-43DF-AFFD-F79701593408"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prueba2/HeroListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DECD6B3-998B-43DF-AFFD-F79701593408 - 6d882e650d94656d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;prueba2.Hero&gt;) -&gt; () in prueba2.HeroListController.viewDidLoad() -&gt; ()"
+                  moduleName = "prueba2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pablo.perpinan/Desktop/IOS/iosRepo/prueba2/prueba2/HeroListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "8DECD6B3-998B-43DF-AFFD-F79701593408 - 6d882e650d9465ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;prueba2.Hero&gt;) -&gt; () in prueba2.HeroListController.viewDidLoad() -&gt; ()"
+                  moduleName = "prueba2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pablo.perpinan/Desktop/IOS/iosRepo/prueba2/prueba2/HeroListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
